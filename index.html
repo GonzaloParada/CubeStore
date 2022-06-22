@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CubeStore</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <!--fontawesome-->
+  <script src="https://kit.fontawesome.com/330a31a2d3.js" crossorigin="anonymous"></script>
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!--toastify-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__logo">cubeStore</div>
+    <nav class="nav">
+      <div class="nav__menu-desplegable"><i class="fas fa-bars"></i></div>
+      <ul class="nav__ul">
+        <li><a href="#" class="menu-link">Inicio</a></li>
+        <li><a href="#id-productos" class="menu-link">Productos</a></li>
+        <li><a href="#" class="menu-link">Formulario</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="icono-carrito"><i class="fa-solid fa-cart-shopping"></i></div>
+
+  <section class="sec-principal">
+    <div class="sec-principal__div">
+      <h1 class="sec-principal__titulo-principal">bienvenido al mundo <b>cuboide</b></h1>
+      <p class="sec-principal__encabezado-principal">investiga nuestros productos</p>
+    </div>
+  </section>
+
+  <section class="productos">
+    <h2 class="productos__titulo" id="id-productos">Productos</h2>
+    <div class="productos__card-contenedor">
+      <!--cargan forma dinamica las cards-->
+    </div>
+  </section>
+
+
+  <section class="seccion-carrito" id="id-carrito">
+    <div class="carrito">
+      <div class="carrito__icono-salir"><i class="fas fa-arrow-left"></i></div>
+      <div class="carrito__header">
+        <h2 class="carrito__titulo">Mi Carrito</h2>
+        <p class="carrito__items">0 items</p>
+      </div>
+      <div class="carrito__productos-container">
+        <!--Se suman los productos-->
+      </div>
+
+      <div class="carrito__footer">
+        <div class="pago">
+          <p class="pago__total">TOTAL: </p>
+          <p class="pago__monto">6000</p>
+        </div>
+        <button class="carrito__btn-pago btn-redondeado" type="submit">PROCEDER AL PAGO</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="">Insta</a></li>
+      <li><a href="">twitter</a></li>
+      <li><a href="">face</a></li>
+    </ul>
+
+    <p>todos los derechos reservados</p>
+  </footer>
+
+
+
+  <!--script-->
+  <!--tostify-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <!--sweet alert-->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

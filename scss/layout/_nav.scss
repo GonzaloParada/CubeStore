@@ -1,0 +1,107 @@
+.header {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  padding-left: 30px;
+  grid-template-rows: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+
+  &__logo {
+    color: $color-primario;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 700;
+
+  }
+
+  .nav {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    &__menu-desplegable {
+      display: none;
+      z-index: 600;
+    }
+
+    &__ul {
+      display: flex;
+      list-style: none;
+      height: 100%;
+
+      li {
+        height: 100%;
+        display: flex;
+
+        .menu-link {
+          text-decoration: none;
+          padding: 0 30px 0 30px;
+          height: 100%;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          color: $color-primario;
+
+          &:hover {
+            color: $color-terciario;
+          }
+        }
+      }
+    }
+  }
+}
+
+.menu-link--scroll {
+  &:hover {
+    background-color: $color-primario;
+    color: $color-terciario;
+    border-bottom: 5px solid $color-secundario
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    .nav__ul {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      width: 100%;
+      background-color: $color-terciario;
+      height: 70vh;
+      font-size: 30px;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(-1000px);
+      transition: transform 1s;
+      z-index: 500;
+
+      li a {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .nav__ul--active {
+      transform: translateY(0);
+      transition: transform 1s;
+    }
+
+    .nav__menu-desplegable {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      margin-right: 30px;
+      color: $color-primario;
+    }
+
+  }
+}

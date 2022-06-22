@@ -1,0 +1,38 @@
+.card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  background-color: $color-gris;
+  box-shadow: 0 3px 7px rgb(114, 113, 113);
+  text-align: center;
+
+  &__div-img {
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  &__titulo {
+    font-weight: 1500;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 1px 1px rgb(48, 48, 48);
+  }
+
+  &__descripcion {
+    color: rgb(146, 141, 141);
+    font-weight: 500;
+  }
+
+  &__div-marca-precio {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-weight: bold;
+  }
+}

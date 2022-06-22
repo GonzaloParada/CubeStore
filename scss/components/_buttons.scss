@@ -1,0 +1,52 @@
+.btn-redondeado {
+  padding: 10px;
+  width: 200px;
+  background-color: $color-naranja;
+  border-radius: 25px;
+  color: $color-primario;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 5px 8px rgba(124, 124, 124, 0.589);
+  letter-spacing: 0.1rem;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+    color: $color-naranja;
+    box-shadow: 1px 1px 5px $color-naranja, -1px -1px 5px $color-naranja, 0 5px 8px rgba(124, 124, 124, 0.589);
+  }
+}
+
+.btn-cuadrado {
+  padding: 10px;
+  width: 200px;
+  background-color: $color-terciario;
+  color: $color-primario;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 5px 8px rgba(124, 124, 124, 0.589);
+  letter-spacing: 0.1rem;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    color: $color-terciario;
+    box-shadow: 1px 1px 5px $color-terciario, -1px -1px 5px $color-terciario, 0 5px 8px rgba(124, 124, 124, 0.589);
+  }
+}
+
+
+.btn-circulo {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+

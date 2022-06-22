@@ -1,0 +1,21 @@
+.productos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  background-color: $color-gris;
+
+  &__titulo {
+    color: green;
+  }
+
+  &__card-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+}

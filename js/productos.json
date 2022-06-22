@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Cubo 2x2",
+    "precio": 1500,
+    "imagen": "assets/imagenes/imagen2x2.jpg"
+  },
+  {
+    "nombre": "Cubo 3x3",
+    "precio": 2400,
+    "imagen": "assets/imagenes/3x3.PNG"
+  },
+  {
+    "nombre": "Pyraminx",
+    "precio": 3200,
+    "imagen": "assets/imagenes/piramid.PNG"
+  },
+  {
+    "nombre": "Megaminx",
+    "precio": 7000,
+    "imagen": "assets/imagenes/hexagon.jpg"
+  },
+  {
+    "nombre": "gan mirror",
+    "precio": 3300,
+    "imagen": "assets/imagenes/gan-mirror.PNG"
+  },
+  {
+    "nombre": "Skewb",
+    "precio": 4000,
+    "imagen": "assets/imagenes/Skewb.jpg"
+  }
+]

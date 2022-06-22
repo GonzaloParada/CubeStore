@@ -1,0 +1,48 @@
+.sec-principal {
+  background-image: url(../assets/imagenes/../imagenes/img-principal.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  &__div {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__titulo-principal {
+    color: $color-primario;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+
+    b {
+      color: $color-secundario;
+    }
+  }
+
+  &__encabezado-principal {
+    color: $color-primario;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sec-principal {
+    height: 100vh;
+
+    &__titulo-principal {
+      font-size: 20px;
+    }
+
+    &__encabezado-principal {
+      font-size: 15px;
+    }
+  }
+}

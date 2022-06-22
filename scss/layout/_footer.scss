@@ -1,0 +1,25 @@
+footer {
+  background-color: $color-terciario;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 50px;
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+    li {
+      color: $color-primario;
+
+      a {
+        color: $color-primario;
+        text-decoration: none;
+      }
+    }
+  }
+}
