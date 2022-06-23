@@ -1,20 +1,14 @@
-.icono-carrito {
-  position: fixed;
-  right: 0;
-  top: 100px;
-}
-
 .seccion-carrito {
   display: none;
   flex-direction: column;
   gap: 30px;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(12, 12, 12, 0.301);
+  background-color: rgba(12, 12, 12, 0.7);
   height: 100vh;
   width: 100%;
   z-index: 4000;
@@ -32,19 +26,40 @@
 
   &__icono-salir {
     font-size: 20px;
-
   }
 
   &__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
 
   &__productos-container {
     width: 100%;
     height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #888;
+      height: 20px;
+    }
+    
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
   }
 
   &__footer {
@@ -57,6 +72,7 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    border-top: 1px solid black;
 
     .pago {
       width: 80%;
@@ -69,11 +85,12 @@
 .producto {
   display: flex;
   width: 100%;
-  height: 150px;
+  height: 120px;
+  min-height: 120px;
   justify-content: space-between;
   align-items: center;
   background-color: $color-gris;
-  box-shadow: 0 3px 7px rgba(87, 87, 87, 0.4);
+  box-shadow: 0 3px 3px rgba(87, 87, 87, 0.4);
 
   img {
     width: 100px;
@@ -96,5 +113,13 @@
   &__btn-remove {
     color: $color-naranja;
 
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .seccion-carrito {
+    .carrito{
+      width: 60%;
+    }
   }
 }

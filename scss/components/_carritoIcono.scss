@@ -1,0 +1,21 @@
+.icono-carrito {
+  position: fixed;
+  right: 10px;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid $color-terciario;
+  width: 50px;
+  height: 50px;
+  color: $color-terciario;
+  font-size: 20px;
+  padding-right: 2px;
+  cursor: pointer;
+  &:hover {
+    border: 3px solid $color-naranja;
+    color: $color-naranja;
+  }
+}

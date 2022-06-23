@@ -5,6 +5,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  
+}
 .swal2-container {
   z-index: 20000 !important;
 }
