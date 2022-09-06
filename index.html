@@ -2,21 +2,23 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CubeStore</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css" />
   <!--fontawesome-->
   <script src="https://kit.fontawesome.com/330a31a2d3.js" crossorigin="anonymous"></script>
   <!--google fonts-->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
   <!--toastify-->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+
+  <!--fontawesome-->
+  <script src="https://kit.fontawesome.com/330a31a2d3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
   <header class="header">
     <div class="header__logo">cubeStore</div>
     <nav class="nav">
@@ -24,19 +26,24 @@
       <ul class="nav__ul">
         <li><a href="#" class="menu-link">Inicio</a></li>
         <li><a href="#id-productos" class="menu-link">Productos</a></li>
-        <li><a href="#" class="menu-link">Formulario</a></li>
+        <li><a href="#form" class="menu-link">Formulario</a></li>
       </ul>
     </nav>
   </header>
 
   <div class="icono-carrito">
-      <i class="icono-carrito__icono fa-solid fa-cart-shopping"></i>
+    <i class="icono-carrito__icono fa-solid fa-cart-shopping"></i>
+    <div class="carrito_numeroItems"></div>
   </div>
 
   <section class="sec-principal">
     <div class="sec-principal__div">
-      <h1 class="sec-principal__titulo-principal">bienvenido al mundo <b>cuboide</b></h1>
-      <p class="sec-principal__encabezado-principal">investiga nuestros productos</p>
+      <h1 class="sec-principal__titulo-principal">
+        bienvenido al mundo <b>cuboide</b>
+      </h1>
+      <p class="sec-principal__encabezado-principal">
+        investiga nuestros productos
+      </p>
     </div>
   </section>
 
@@ -47,10 +54,11 @@
     </div>
   </section>
 
-
   <section class="seccion-carrito" id="id-carrito">
     <div class="carrito">
-      <div class="carrito__icono-salir"><i class="fas fa-arrow-left"></i></div>
+      <div class="carrito__icono-salir">
+        <i class="fas fa-arrow-left"></i>
+      </div>
       <div class="carrito__header">
         <h2 class="carrito__titulo">Mi Carrito</h2>
         <p class="carrito__items">0 items</p>
@@ -61,25 +69,42 @@
 
       <div class="carrito__footer">
         <div class="pago">
-          <p class="pago__total">TOTAL: </p>
+          <p class="pago__total">TOTAL:</p>
           <p class="pago__monto">6000</p>
         </div>
-        <button class="carrito__btn-pago btn-redondeado" type="submit">PROCEDER AL PAGO</button>
+        <button class="carrito__btn-pago btn-redondeado" type="submit">
+          PROCEDER AL PAGO
+        </button>
       </div>
     </div>
   </section>
 
+  <div class="form-container">
+    <h2>Formulario de consultas</h2>
+    <form class="form" id="form">
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Motivo" required>
+      <textarea  id="" cols="30" rows="10" required></textarea>
+      <button type="submit" class="btn-form">ENVIAR</button>
+    </form>
+  </div>
+
   <footer>
     <ul>
-      <li><a href="">Insta</a></li>
-      <li><a href="">twitter</a></li>
-      <li><a href="">face</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/gonzalo-parada/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/gonzaparada/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/GonzaloParada" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </li>
     </ul>
 
-    <p>todos los derechos reservados</p>
+    <p>Todos los derechos reservados 2022 - Gonzalo Parada</p>
   </footer>
-
-
 
   <!--script-->
   <!--tostify-->

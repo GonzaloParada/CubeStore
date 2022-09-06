@@ -18,4 +18,27 @@
     border: 3px solid $color-naranja;
     color: $color-naranja;
   }
+  &:hover > .carrito_numeroItems {
+    border: 1px solid $color-naranja;
+  }
+}
+
+.carrito_numeroItems {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  background-color: $color-primario;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $color-terciario;
+  display: none;
+}
+
+.carrito_numeroItems--active {
+  display: flex;
 }

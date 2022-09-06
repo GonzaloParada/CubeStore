@@ -15,7 +15,6 @@
     text-transform: uppercase;
     font-weight: 800;
     z-index: 700;
-
   }
 
   .nav {
@@ -59,13 +58,13 @@
   &:hover {
     background-color: $color-primario;
     color: $color-terciario;
-    border-bottom: 5px solid $color-secundario
+    border-bottom: 5px solid $color-secundario;
   }
-
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .header {
+    background-color: $color-terciario;
     .nav__ul {
       display: flex;
       flex-direction: column;
@@ -102,6 +101,5 @@
       margin-right: 30px;
       color: $color-primario;
     }
-
   }
 }

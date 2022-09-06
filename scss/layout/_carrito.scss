@@ -19,7 +19,7 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  padding: 0 10px;
+  padding: 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -36,11 +36,13 @@
 
   &__productos-container {
     width: 100%;
-    height: 60%;
+    height: 65%;
     display: flex;
     flex-direction: column;
     gap: 10px;
     overflow-y: scroll;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     &::-webkit-scrollbar {
       width: 5px;
     }
@@ -72,7 +74,8 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    border-top: 1px solid black;
+    gap: 15px;
+    border-radius: 15px;
 
     .pago {
       width: 80%;
@@ -91,10 +94,13 @@
   align-items: center;
   background-color: $color-gris;
   box-shadow: 0 3px 3px rgba(87, 87, 87, 0.4);
+  padding: 0 15px;
+  border-radius: 15px;
+  overflow: hidden;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
   }
 
   &__cantidad-container {

@@ -15,11 +15,15 @@ footer {
 
     li {
       color: $color-primario;
+      font-size: 20px;
 
       a {
         color: $color-primario;
         text-decoration: none;
       }
     }
+  }
+  p {
+    font-size: 14px;
   }
 }

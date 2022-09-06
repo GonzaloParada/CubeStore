@@ -2,31 +2,64 @@
   {
     "nombre": "Cubo 2x2",
     "precio": 1500,
-    "imagen": "assets/imagenes/imagen2x2.jpg"
+    "imagen": "assets/imagenes/2x2.png",
+    "descripcion": "Cubo 2x2 classic color",
+    "marca": "QIYI"
   },
   {
     "nombre": "Cubo 3x3",
     "precio": 2400,
-    "imagen": "assets/imagenes/3x3.PNG"
+    "imagen": "assets/imagenes/3x3.PNG",
+    "descripcion": "Cubo 3x3 candy color",
+    "marca": "GAN"
   },
   {
     "nombre": "Pyraminx",
     "precio": 3200,
-    "imagen": "assets/imagenes/piramid.PNG"
+    "imagen": "assets/imagenes/piramid.PNG",
+    "descripcion": "Pyraminx classic",
+    "marca": "QIYI"
   },
   {
     "nombre": "Megaminx",
     "precio": 7000,
-    "imagen": "assets/imagenes/hexagon.jpg"
+    "imagen": "assets/imagenes/megaminix.png",
+    "descripcion": "Megaminx",
+    "marca": "ZIQ"
   },
   {
-    "nombre": "gan mirror",
-    "precio": 3300,
-    "imagen": "assets/imagenes/gan-mirror.PNG"
+    "nombre": "Cubo gan mirror",
+    "precio": 3500,
+    "imagen": "assets/imagenes/gan-mirror.PNG",
+    "descripcion": "Gan mirror violet color",
+    "marca": "GAN"
   },
   {
-    "nombre": "Skewb",
-    "precio": 4000,
-    "imagen": "assets/imagenes/Skewb.jpg"
+    "nombre": "Cubo Skewb",
+    "precio": 4200,
+    "imagen": "assets/imagenes/Skewb.png",
+    "descripcion": "Cubo Skewb candy color",
+    "marca": "QIYI"
+  },
+  {
+    "nombre": "Cubo Penrose",
+    "precio": 5000,
+    "imagen": "assets/imagenes/penrose.png",
+    "descripcion": "Cubo Penrose classic color",
+    "marca": "Z"
+  },
+  {
+    "nombre": "Cubo 8X8",
+    "precio": 8000,
+    "imagen": "assets/imagenes/8x8.png",
+    "descripcion": "Cubo 8X8 candy color",
+    "marca": "GAN"
+  },
+  {
+    "nombre": "Six Spot Pitcher",
+    "precio": 7700,
+    "imagen": "assets/imagenes/Six Spot Pitcher.png",
+    "descripcion": "Six Spot Pitcher classic color",
+    "marca": "QIYI"
   }
 ]

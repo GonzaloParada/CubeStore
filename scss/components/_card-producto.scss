@@ -13,8 +13,14 @@
   &__div-img {
     height: 150px;
     width: 100%;
+    object-fit: contain;
     background-color: white;
     overflow: hidden;
+
+    img {
+      height: 150px;
+      object-fit: cover;
+    }
   }
 
   &__titulo {
