@@ -9,3 +9,4 @@ https://gonzaloparada.github.io/CubeStore/
 ## Vista
 
 <img src="./assets/imagenes/vistaPage.PNG">
+
