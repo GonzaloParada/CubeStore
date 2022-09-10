@@ -30,10 +30,9 @@ window.addEventListener("scroll", (e) => {
 --------------------------------------------------------------------------------*/
 let btnForm = document.querySelector(".btn-form");
 
-btnForm.addEventListener("submit", (e)=>{
+btnForm.addEventListener("submit", (e) => {
   e.preventDefault();
-})
-
+});
 
 /*--------------------------------------------------------------------------------
 ----------------------------------CARDS-------------------------------------------
@@ -181,7 +180,7 @@ function creaItemHTML(nombre, imagen, precio) {
       <img src="${imagen}" alt="">
       <div class="producto__info">
           <h3 class="producto__nombre">${nombre}</h3>                    
-          <p class="producto__precio">${precio} $</p>
+          <p class="producto__precio">${precio}</p>
           <div class="producto__cantidad-container">
               <div class="restar-items btn-circulo">-</div>
               <div class="producto__cantidad">1</div>
@@ -272,5 +271,5 @@ function totalPrecio() {
     );
     total = total + precio * cantidad;
   }
-  pagoMonto.innerHTML = total;
+  pagoMonto.innerHTML = `${total} $`;
 }

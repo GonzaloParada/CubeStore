@@ -46,18 +46,18 @@
     &::-webkit-scrollbar {
       width: 5px;
     }
-    
+
     /* Track */
     &::-webkit-scrollbar-track {
       background: #f1f1f1;
     }
-    
+
     /* Handle */
     &::-webkit-scrollbar-thumb {
       background: #888;
       height: 20px;
     }
-    
+
     /* Handle on hover */
     &::-webkit-scrollbar-thumb:hover {
       background: #555;
@@ -98,6 +98,11 @@
   border-radius: 15px;
   overflow: hidden;
 
+  &__info {
+    width: 40%;
+    margin: auto;
+  }
+
   img {
     width: 70px;
     height: 70px;
@@ -118,13 +123,12 @@
 
   &__btn-remove {
     color: $color-naranja;
-
   }
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px) {
   .seccion-carrito {
-    .carrito{
+    .carrito {
       width: 60%;
     }
   }

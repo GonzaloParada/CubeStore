@@ -258,6 +258,10 @@ body::-webkit-scrollbar {
   border-radius: 15px;
   overflow: hidden;
 }
+.producto__info {
+  width: 40%;
+  margin: auto;
+}
 .producto img {
   width: 70px;
   height: 70px;
